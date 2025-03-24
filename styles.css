@@ -1,0 +1,21 @@
+body {
+    background-color: #EEEEEE;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.4;
+  }
+
+header {
+    color: #444444;
+    padding: 16px 0;
+    text-align: center;
+  }
+
+#about {
+
+    color: #444444;
+    padding: 16px 0;
+    text-align: center;
+    padding-left: 512px;
+    padding-right: 512px;
+  }
