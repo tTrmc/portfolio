@@ -1,28 +1,33 @@
 @font-face {
   font-family: Supply;
-  src: url(PPSupplySans-Regular.otf);
+  src: url(assets/fonts/PPSupplySans-Regular.otf);
 }
 
 @font-face {
   font-family: SupplyMono;
-  src: url(PPSupplyMono-Regular.otf);
+  src: url(assests/fonts/PPSupplyMono-Regular.otf);
+}
+
+@font-face {
+  font-family: Monogram;
+  src: url(assests/fonts/monogram-extended.ttf);
 }
 
 body {
     background-color: #EEEEEE;
-    font-size: 24px;
-    font-family: SupplyMono, Supply, sans-serif;
+    font-family: SupplyMono, 'Courier New', Courier, monospace;
     line-height: 1.4;
   }
 
 header {
+    font-size: 32px;
     color: #444444;
     padding: 16px 0;
     text-align: center;
   }
 
 #about {
-
+    font-size: 24px;
     color: #444444;
     padding: 16px 0;
     text-align: center;
